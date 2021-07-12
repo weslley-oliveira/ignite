@@ -14,8 +14,6 @@ export function Counter() {
     return (
         <div className="counter">
             <p>{counter}</p>
-            <button onClick={decrement}>-</button>
-            <button onClick={increment}>+</button>
         </div>
     )
     
